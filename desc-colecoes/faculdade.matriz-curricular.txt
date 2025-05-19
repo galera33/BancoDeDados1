@@ -1,0 +1,19 @@
+{
+  codigo_matriz: Number,            // Identificador único da matriz curricular (ex: 1)
+  programa_academico: {             // Objeto que representa o programa acadêmico ao qual essa matriz pertence
+    codigo_programa: Number,        // Código identificador do programa acadêmico (ex: 1)
+    nome_programa: String           // Nome do programa acadêmico (ex: "Ciência da Computação")
+  },
+  disciplinas_obrigatorias: [       // Lista de disciplinas obrigatórias da matriz curricular
+    {
+      codigo_disciplina: Number,    // Código identificador da disciplina (ex: 101)
+      nome_disciplina: String       // Nome da disciplina (ex: "Cálculo")
+    },
+    {
+      codigo_disciplina: Number,    // Código identificador da disciplina (ex: 102)
+      nome_disciplina: String       // Nome da disciplina (ex: "Sistemas Operacionais")
+    },
+    // ... demais disciplinas obrigatórias
+  ]
+}
+

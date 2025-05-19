@@ -1,0 +1,18 @@
+{
+  codigo_professor: Number,          // Identificador único do professor (ex: 3)
+  nome_professor: String,            // Nome completo do professor (ex: "Paulo Sérgio")
+  disciplinas_ministradas: [         // Lista de disciplinas que o professor ministra
+    {
+      codigo_disciplina: Number,     // Código identificador da disciplina (ex: 101)
+      nome_disciplina: String,       // Nome da disciplina (ex: "Cálculo")
+      ano: Number,                   // Ano letivo em que a disciplina foi ministrada (ex: 2024)
+      semestre: Number               // Semestre do ano em que a disciplina foi ministrada (ex: 2)
+    },
+    {
+      codigo_disciplina: Number,     // Código identificador da disciplina (ex: 107)
+      nome_disciplina: String,       // Nome da disciplina (ex: "Teoria da Computação")
+      ano: Number,                   // Ano letivo em que a disciplina foi ministrada (ex: 2024)
+      semestre: Number               // Semestre do ano em que a disciplina foi ministrada (ex: 2)
+    }
+  ]
+}

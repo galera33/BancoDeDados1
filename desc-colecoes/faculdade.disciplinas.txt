@@ -1,0 +1,8 @@
+{
+  codigo_disciplina: Number,         // Código identificador único da disciplina (ex: 107)
+  nome_disciplina: String,           // Nome da disciplina (ex: "Teoria da Computação")
+  docente_responsavel: {             // Objeto que representa o docente responsável pela disciplina
+    id_docente: Number,              // Identificador único do docente responsável (ex: 3)
+    nome: String                    // Nome do docente responsável (ex: "Paulo Sérgio")
+  }
+}

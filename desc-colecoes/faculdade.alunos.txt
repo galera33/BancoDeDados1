@@ -1,0 +1,28 @@
+{
+    "id_aluno": Number, // Identificador único do aluno
+    "nome": String, // Nome completo do aluno
+    "historico_escolar": [
+        {
+            "ano": Number, // Ano em que a disciplina foi cursada
+            "semestre": Number, // Semestre em que a disciplina foi cursada
+            "nota_final": Number, // Nota final obtida na disciplina
+            "disciplina": {
+                "id_disciplina": Number, // Identificador da disciplina
+                "nome": String // Nome da disciplina
+            }
+        }
+    ],
+    "grupo_TCC": {
+        "id_grupo_tcc": Number, // Identificador do grupo de TCC
+        "tema": String, // Tema do TCC
+        "orientador": { 
+            "id_professor": Number // Identificador do professor orientador
+        },
+        "colegas": [
+            {
+                "id_aluno": Number, // Identificador de um colega no grupo de TCC
+                "nome": String // Nome do colega
+            }
+        ]
+    }
+}

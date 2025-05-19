@@ -1,0 +1,8 @@
+{
+  codigo_unidade: Number, // Código identificador único da unidade acadêmica (ex: 101)
+  nome_unidade: String,   // Nome da unidade acadêmica, como um departamento ou instituto (ex: "Departamento de Computação")
+  chefe: {                // Objeto que representa o chefe da unidade acadêmica
+    id_docente: Number,   // Identificador único do docente que é chefe (ex: 3001)
+    nome: String          // Nome do docente chefe (ex: "Anjoletto")
+  }
+}

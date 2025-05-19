@@ -1,0 +1,8 @@
+{
+  codigo_programa: Number, // Identificador único do programa acadêmico (ex: 1)
+  nome_programa: String, // Nome do programa acadêmico (ex: "Ciência da Computação")
+  unidade_academica: { // Objeto que representa a unidade acadêmica responsável pelo programa
+    codigo_unidade: Number, // Código identificador da unidade acadêmica (ex: 101)
+    nome_unidade: String // Nome da unidade acadêmica, como um departamento ou instituto (ex: "Departamento de Computação")
+  }
+}
