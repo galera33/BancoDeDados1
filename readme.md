@@ -29,6 +29,6 @@ Utilizando MongoDB
     # ex. Na pasta do projeto
     
     ``` 
-    node queries-projeto-antigo\get-alunos-formados.js
+    node queries-projeto-antigo\getAlunosFormados.js
     ``` 
     Ao executar o console trará as respectivas respostas das queries
